@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <EditText
+        android:id="@+id/enter_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/brown_border"
+        android:hint="Enter Item Name"
+        android:inputType="text"
+        android:maxLines="1"
+        android:padding="18dp"
+        android:textAlignment="viewStart"
+        android:textColor="#3c3da6"
+        android:textColorHint="#CECEEA"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
+
+    <EditText
+        android:id="@+id/enter_phno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/brown_border"
+        android:hint="Enter Price "
+        android:inputType="number"
+        android:maxLines="1"
+        android:padding="18dp"
+        android:textAlignment="viewStart"
+        android:textColor="#3c3da6"
+        android:textColorHint="#CECEEA"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
+
+</LinearLayout>
